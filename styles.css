@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px 30px;
+    box-shadow: 0 2px 3px black;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .logo .highlight {
+    color: rgb(233, 11, 29);
+  }
+  
+  .search-bar {
+    padding: 15px 15px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 550px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .navbar-right .location {
+    font-weight: bold;
+  }
+  
+  .sign-in {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .sign-in:hover {
+    background-color: darkred;
+  }
+  .container {
+    max-width: 10000px;
+    padding: 20px;
+  }
+  .seeall{
+    text-decoration: none;
+    text-align: end;
+    color: #ff4757;
+    padding-left: 900px;
+  }
+  
+  .recommended-movies h2 {
+    align-items: center;
+  }
+  
+  .recommended-movies h2 a {
+    text-decoration: none;
+    font-size: 100px;
+    color: #47ffc5;
+    text-decoration: none;
+  }
+  
+  .movie-list {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+  }
+  
+  .movie-card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(236, 152, 152);
+    text-align: center;
+  }
+  
+  .movie-poster {
+    position: relative;
+    height: 270px;
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+  .movie-info {
+    padding: 2px;
+  }
+  
+  .movie-info h3 {
+    font-size: 20px;
+    margin: 2px 0 4px;
+  }
+  
+  .movie-info p {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .rating {
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .rating span {
+    color: #ff4757;
+    font-weight: bold;
+  }
+  .containers {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  .card {
+    display:flex;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgb(239, 141, 141);
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 25px;
+    text-decoration: none;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .card-content .description {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 10px;
+    text-decoration: none;
+  } 
+  .book-now {
+    color: #f70606;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.card2 {
+  background-color: #1c033b;
+  color: #fff;
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6a0080;
+  padding: 20px;
+  box-shadow: 0 10px 12px rgb(250, 4, 4);
+}
+
+.card-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.vs {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.match-info {
+  padding: 15px;
+}
+
+.match-info p {
+  margin: 5px 0;
+}
+
+.prices {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+.packages-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .package-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 12px rgb(250, 4, 4);
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+  }
+  
+  .more-options {
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 12px;
+  }
+  
+  .package-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .package-card h3 {
+    font-size: 1.25em;
+    margin: 16px;
+    color: #333;
+  }
+  
+  .package-card p {
+    color: #666;
+    margin: 0 16px;
+    font-size: 0.9em;
+  }
+  
+  .duration {
+    font-size: 0.8em;
+    color: #555;
+  }
+  
+  .package-details {
+    list-style: none;
+    padding: 0;
+    margin: 16px;
+  }
+  
+  .package-details li {
+    font-size: 0.85em;
+    color: #555;
+    padding: 4px 0;
+  }
+  
+  .price-info {
+    background-color: #eef5ff;
+    color: #0073e6;
+    padding: 10px 16px;
+    margin: 16px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    text-decoration: none;
+  }
+  
+  .price {
+    background-color: #f0f0f0;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .pricees p {
+    margin: 4px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    background-color: lightgray;
+    text-align: center;
+    text-decoration: none;
+  }
+  .pricees  :hover{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-decoration: none;
+  }
+  .text2{
+    text-decoration: none;
+  }

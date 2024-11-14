@@ -1,0 +1,85 @@
+.movie-info {
+    max-width: 600px; /* Adjust based on your needs */
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Light gray line similar to the image */
+    font-family: Arial, sans-serif;
+}
+
+.movie-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.movie-info p {
+    font-size: 16px;
+    color: #333; /* Darker color for readability */
+    line-height: 1.5;
+}
+.Home{
+    text-align: right;
+    text-decoration: none;
+    color: Black;
+}
+.Home :hover{
+    background-color: #e91e63;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color:   
+ #F5F5F5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.header {
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.day {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.day-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.activity img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.activity p {
+    margin: 0;
+}
+.Tickets{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(218, 45, 45, 0.893);
+    text-decoration: none;
+    padding: 0px 0px 0px;
+}
+.ticket2{
+    text-decoration: none;
+    color: #333;
+  }
